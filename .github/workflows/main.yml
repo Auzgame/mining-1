@@ -1,7 +1,7 @@
 name: Test
- on: 
-  workflow_dispatch:
- jobs:
+on: 
+ workflow_dispatch:
+jobs:
    test:
      name: Fetch
      runs-on: ubuntu-latest
